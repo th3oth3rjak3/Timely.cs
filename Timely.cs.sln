@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timely.cs", "Timely.cs\Timely.cs.csproj", "{2AA7FEC7-4811-4C60-A87A-0B06B46AF31C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AA7FEC7-4811-4C60-A87A-0B06B46AF31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA7FEC7-4811-4C60-A87A-0B06B46AF31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA7FEC7-4811-4C60-A87A-0B06B46AF31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA7FEC7-4811-4C60-A87A-0B06B46AF31C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
