@@ -3,6 +3,8 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="Timely.cs/App.axaml" value="Timely.cs/Timely.cs.csproj" />
+        <entry key="Timely.cs/Assets/Icons.axaml" value="Timely.cs/Timely.cs.csproj" />
         <entry key="Timely.cs/Views/MainWindow.axaml" value="Timely.cs/Timely.cs.csproj" />
       </map>
     </option>
