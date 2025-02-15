@@ -16,9 +16,9 @@
     </Design.DataContext>
 
     <SplitView IsPaneOpen="{Binding IsPaneOpen}"
-               CompactPaneLength="45"
+               CompactPaneLength="40"
                DisplayMode="CompactInline"
-               OpenPaneLength="300"
+               OpenPaneLength="200"
                Background="#1e1e1e"
                PaneBackground="#1e1e1e">
         <SplitView.Pane>
@@ -33,7 +33,7 @@
                         Command="{Binding TogglePaneCommand}">
                     <PathIcon Data="{StaticResource LineHorizontal3Regular}" />
                 </Button>
-                <ListBox Margin="2 0 -100 0" Padding="0" ItemsSource="{Binding ListItems}"
+                <ListBox Margin="7 0 -100 0" Padding="0" ItemsSource="{Binding ListItems}"
                          SelectedIndex="{Binding SelectedIndex}">
                     <ListBox.Styles>
                         <Style Selector="ListBoxItem">
@@ -44,7 +44,7 @@
                         <DataTemplate DataType="{x:Type vm:ListItemTemplate}">
                             <StackPanel Spacing="17" Orientation="Horizontal">
                                 <PathIcon Data="{Binding Icon}"
-                                          Margin="2 0 0 0"
+                                          Margin="-2 0 0 0"
                                           Width="14" />
                                 <TextBlock Text="{Binding Label}" />
                             </StackPanel>
@@ -54,9 +54,11 @@
             </StackPanel>
         </SplitView.Pane>
         <SplitView.Content>
-            <Border CornerRadius="12 0 0 0"
-                    Background="#2d2d2d">
-                <TransitioningContentControl Content="{Binding CurrentPage}" Margin="20"/>
+            <Border Background="#1e1e1e" BorderThickness="8 10">
+                <Border CornerRadius="12"
+                        Background="#2d2d2d">
+                    <TransitioningContentControl Content="{Binding CurrentPage}" Margin="20"/>
+                </Border>
             </Border>
         </SplitView.Content>
     </SplitView>
